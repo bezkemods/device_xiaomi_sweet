@@ -29,7 +29,7 @@
     <dimen name="physical_fingerprint_sensor_center_screen_location_y">1100px</dimen>
 
     <!-- the padding on the top of the statusbar (usually 0) -->
-    <dimen name="status_bar_padding_top">26px</dimen>
+    <dimen name="status_bar_padding_top">18px</dimen>
 
     <!-- the padding on the start of the statusbar -->
     <dimen name="status_bar_padding_start">12dp</dimen>
