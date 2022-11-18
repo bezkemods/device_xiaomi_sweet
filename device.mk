@@ -75,6 +75,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service
 
+# Device-specific settings
+PRODUCT_PACKAGES += \
+    DeviceSettings
+
 # Camera
 PRODUCT_PACKAGES += \
     GoogleCameraGo
