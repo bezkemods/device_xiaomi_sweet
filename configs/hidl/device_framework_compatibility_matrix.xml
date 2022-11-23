@@ -361,21 +361,13 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <instance>default</instance>
     </interface>
 </hal>
-<hal format="hidl">
-    <name>vendor.lineage.touch</name>
-    <version>1.0</version>
+<hal format="hidl" optional="true">
+    <name>vendor.dolby.hardware.dms</name>
+    <transport>hwbinder</transport>
+    <version>2.0</version>
     <interface>
-        <name>IHighTouchPollingRate</name>
+        <name>IDms</name>
         <instance>default</instance>
     </interface>
 </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.dolby.hardware.dms</name>
-        <transport>hwbinder</transport>
-        <version>2.0</version>
-        <interface>
-            <name>IDms</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
 </compatibility-matrix>
